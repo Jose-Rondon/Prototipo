@@ -134,7 +134,7 @@ h1  {
 .menu-icon1    {
     stroke: #00ffffff;
     stroke-width: 5;
-    margin: .6rem .4rem;
+    margin: .4rem .4rem;
     transition-duration: .4s;
     width: 100%;
     position: relative;
@@ -196,14 +196,21 @@ h1  {
 }
 
 .banner1    {
+    margin: 6.25%;
+}
+
+.banner1-1    {
     display: flex;
     max-width: 100%;
     flex-wrap: wrap;
     color: #1a1a1aff;
     place-items: center;
     justify-content: space-evenly;
-    margin: 2rem 2rem;
     gap: calc(2rem + 1vw);
+}
+
+.banner1-1 .logo  {
+    max-width: 80%;
 }
 
 .logo   {
@@ -493,7 +500,7 @@ h1  {
 
 .slide   {
     display: flex;
-    max-width: 80%;
+    width: 75%;
     margin: auto auto;
 }
 
@@ -570,7 +577,7 @@ h1  {
 .menu3  {
     display: flex;
     flex-wrap: wrap;
-    margin: 2rem 0;
+    margin: 6.25%;
 }
 
 .cabecera  {
@@ -580,7 +587,7 @@ h1  {
     font-size: calc(1.1rem + 1vw);
     font-weight: bolder;
     line-height: calc(1.1rem + 1vw);
-    margin: 1rem auto 2rem;
+    margin: 0 0 6.25% auto;
     text-align: right;
 }
 
@@ -597,7 +604,7 @@ h1  {
     flex-wrap: wrap;
     width: 100%;
     background-color:rgba(199,199,199,.1);
-    padding: 2rem 2rem;
+    padding: 6.25%;
     gap: 1rem;
     justify-content: space-evenly;
 }
@@ -735,10 +742,7 @@ h1  {
     .label1 {
         margin-right: 3rem;
     }
-    .banner1    {
-        margin: 3rem 3rem;
-    }
-    .banner1 .logo  {
+    .banner1-1 .logo  {
         width: 40%;
     }
 
@@ -864,13 +868,15 @@ h1  {
     .list1-1 p:hover    {
         color:#00ffffff
     }
-    .banner1 {
-        margin: 4% 5%;
+    .banner1    {
+        margin:5%;
+    }
+    .banner1-1 {
         gap: 0;
         row-gap: 3rem;;
     }
-    .banner1 .logo  {
-        width: 40%;
+    .banner1-1 .logo  {
+        width: 35%;
     }
     .banner1-2  {
         margin-right: 0;
@@ -881,17 +887,14 @@ h1  {
         font-size: calc(2.1rem + 1vw);
         line-height: calc(2.1rem + 1vw);
     }
-    .slideshow  {
-        margin: 0 1rem;
-    }
     .contentslide   {
         margin: 0;
     }
     .slide  {
-        max-width: 50%;
+        max-width: 35%;
     }
     .content    {
-        max-width: 35ch;
+        max-width: 45ch;
         padding: 2rem;
     }
     .content h1 {
@@ -904,7 +907,7 @@ h1  {
         padding: 4rem;
     }
     .menu3  {
-        margin: 10% 8%;
+        margin: 7% 5%;
         flex-wrap: nowrap;
         column-gap: 3%;
         place-items: center;
@@ -921,12 +924,11 @@ h1  {
     .list1    {
         padding-right: 4rem;
     }
-    .banner1    {
-        margin: 4% 6%;
+    .banner1-1    {
         row-gap: 4rem;
     }
-    .banner1 .logo  {
-        width: 40%;
+    .banner1-1 .logo  {
+        width: 35%;
     }
     .banner1-2  {
         width: 35%
