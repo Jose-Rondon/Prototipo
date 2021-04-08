@@ -739,7 +739,7 @@ h4  {
     display: flex;
     position: absolute;
     align-self: center;
-    justify-self: center;
+    padding: 0;
     margin: auto 6.25%;
     background-color:rgba(26, 26, 26, 0.95);
     transform: scale(0,1);
@@ -747,7 +747,7 @@ h4  {
     border-left: 3px solid #00ffffff;
     border-right: 3px solid #f34213ff;
     transition-duration: .4s;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     z-index: 1001;
 }
 
