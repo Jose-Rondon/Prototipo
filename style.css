@@ -1106,11 +1106,15 @@ li:hover ~ .icon1 .fill {
     border: 2px solid var(--light-gray);
     border-radius: 3px;
     background-color: white;
+    place-items: center;
 }
 
 .productMini img   {
+    display: flex;
+    flex-shrink: 0;
     width: 100%;
-}   
+
+}
 
 .presentationProduct    {
     display: flex;
