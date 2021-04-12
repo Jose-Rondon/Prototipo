@@ -94,6 +94,7 @@ h4  {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    place-items: center;
     opacity: 0;
 }
 
@@ -105,7 +106,7 @@ h4  {
     align-self: center;
 }
 
-.list1-1 a  {
+.list1-1  {
     text-decoration: none;
     font-size: calc(0.7rem + 0.5vw);
     font-weight: normal;
@@ -113,7 +114,7 @@ h4  {
     color: var(--dark-gray);
 }
 
-.list1-1 a:hover    {
+.list1-1:hover    {
     color: var(--green);
 }
 
@@ -148,7 +149,7 @@ h4  {
 .span-menu  {
     content:"";
     width: 100%;
-    height: 0.2rem;
+    height: .2rem;
     background-color: var(--orange);
     transform: scale(0,1);
     transition-duration: 0.4s;
@@ -228,11 +229,11 @@ h4  {
     color: var(--green);
 }
 
-.list1-1:hover > span   {
+a:hover .span-menu    {
     transform: scale(1,1);
 }
 
-.list1-1:hover ~ .icon1 .fill {
+li:hover ~ .icon1 .fill {
     fill: var(--green);
 }
 
@@ -1092,14 +1093,14 @@ h4  {
     max-width: 100%;
     display: flex;
     flex-wrap: wrap-reverse;
-    gap: 1rem;
-    justify-content: space-evenly
+    row-gap: 1rem;
+    justify-content: space-between;
 }
 
 .productMini   {
     display: block;
-    max-width: 20%;
-    max-height: 13%;
+    max-width: 22%;
+    max-height: 100%;
     cursor: pointer;
     padding: 0.3rem;
     border: 2px solid var(--light-gray);
@@ -1114,12 +1115,11 @@ h4  {
 .presentationProduct    {
     display: flex;
     flex-wrap: nowrap;
-    width: 100%;
+    max-width: 100%;
     overflow: hidden;
     border: 2px solid var(--light-gray);
     border-radius: 2%;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding: 4%;
     gap: 4%;
     background-color: white;
 }
@@ -1494,8 +1494,6 @@ h4  {
     .list1-1    {
         transition-duration: 0.4s;
         margin: 1rem 0 0;
-    }
-    .list1-1 a  {
         text-decoration: none;
         font-size: 1rem;
         font-weight: normal;
@@ -1508,15 +1506,10 @@ h4  {
         transform: scale(0);
         transform-origin: center;
     }
-    .list1-1:hover ~ .icon1    {
+    li:hover ~ .icon1    {
         opacity: 1;
         transform: scale(1,1);
-    }
-    .list1-1 ~ .icon1 {
         margin: 6px 0;
-    }
-    .list1-1 p:hover    {
-        color:var(--green);
     }
     .banner1    {
         margin: 3.15% 12%;
