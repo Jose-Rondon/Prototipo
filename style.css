@@ -1124,7 +1124,7 @@ li:hover ~ .icon1 .fill {
 }
 
 .presentationProduct img    {
-    width: 100%;
+    max-width: 100%;
 
 }
 
