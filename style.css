@@ -1112,7 +1112,6 @@ li:hover ~ .icon1 .fill {
     display: flex;
     flex-shrink: 0;
     width: 100%;
-    margin: auto auto;
     padding: 0.3rem;
 
 }
