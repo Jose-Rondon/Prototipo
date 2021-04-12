@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
-    
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>PnPelectronics - PLC</title>
+        <title>PnPelectronics</title>
     </head>
 
     <a id="top"></a>
@@ -126,18 +126,6 @@
             </div>
             <div class="inline">
                 <li class="list1-1">
-                    <a href="HMI.html"><p>Dispositivos HMI</p></a>
-                    <span class="span-menu"></span>
-                </li>
-                <div class="icon1">
-                    <svg width="100" height="60">
-                        <rect width="100" height="60" x="0" y="0" rx="8" ry="8" class="fillback"/>
-                        <rect width="84" height="44" x="8" y="8" class="fill"/>
-                    </svg>
-                </div>
-            </div>
-            <div class="inline">
-                <li class="list1-1">
                     <a href="PLC.html"><p>Dispositivos PLC</p></a>
                     <span class="span-menu"></span>
                 </li>
@@ -161,15 +149,26 @@
                     </svg>
                 </div>
             </div>
-        </ul>
-    </header>
+            <div class="inline">
+                <li class="list1-1">
+                    <a href="HMI.html"><p>Dispositivos HMI</p></a>
+                    <span class="span-menu"></span>
+                </li>
+                <div class="icon1">
+                    <svg width="100" height="60">
+                        <rect width="100" height="60" x="0" y="0" rx="8" ry="8" class="fillback"/>
+                        <rect width="84" height="44" x="8" y="8" class="fill"/>
 
-    <body class="body">
-        <div class="container">
-            <div class="bannerProducts">
-                <div class="bannerTitulo">
-                    <h1>Título del Banner</h1>
-                    <svg width="100" height="60" class="icon">
+                    </svg>
+                </div>
+            </div>
+            <div class="inline">
+                <li class="list1-1">
+                    <a href="M-Expancion.html"><p>Módulos de Expación</p></a>
+                    <span class="span-menu"></span>
+                </li>
+                <div class="icon1">
+                    <svg width="100" height="60">
                         <rect width="22" height="50" x="16.666" y="10" rx="5" ry="5" class="fillback"/>
                         <rect width="22" height="2" x="16.666" y="23" class="fill"/>
                         <rect width="11" height="3" x="21.5" y="24" class="fill"/>
@@ -187,117 +186,344 @@
                         <rect width="3" height="3" x="73.168" y="41" class="fill"/>
                     </svg>
                 </div>
-                    <p>Contenido del banner Contenido del banner Contenido del banner Contenido del banner</p>
+            </div>
+        </ul>
+    </header>
+    <body>
+        <div class="contentProduct">
+            <div class="productInfo">
+                <div class="productText">
+                    <h1>Nombre del Producto</h1>
+                    <p>
+                        Breve descripción del producto Breve descripción del producto Breve descripción del producto Breve descripción del producto.
+                    </p>
+                    <ul class="productLi">
+                        <li>Característica pequeña.</li>
+                        <li>Característica pequeña.</li>
+                        <li>Característica pequeña.</li>
+                        <li>Característica pequeña.</li>
+                    </ul>
+                    
                 </div>
-            <div class="products">
-                <input type="checkbox" id="productsContent" style="display: none;">
-                <label for="productsContent" class="wrap">
-                    <div class="productsContent">
-                        <img src="img/FLEXEMFL3-4G.png" alt="">
-                        <div class="productsContentText">
-                            <h2>Nombre del Producto</h2>
-                            <p>
-                                Breve descripción del producto Descripción del producto Descripción del producto Descripción del producto.
-                            </p>
-                            <a href="Producto.html"><button class="button">Saber más</button></a>
-                        </div>
-                    </div>                    
+                <form class="formProduct">
+                    <input type="radio" name="imagenes" id="radio1" style="display: none;">
+                    <label for="radio1" class="productMini">
+                        <img src="img/FC3-48MR-AC.png" alt="">
+                    </label>
+                    <input type="radio" name="imagenes" id="radio2" style="display: none;">
+                    <label for="radio2" class="productMini">
+                        <img src="img/frente.png" alt="">
+                    </label>
+                    <input type="radio" name="imagenes" id="radio3" style="display: none;">
+                    <label for="radio3" class="productMini">
+                        <img src="img/lado.png" alt="">
+                    </label>
+                    <input type="radio" name="imagenes" id="radio4" style="display: none;">
+                    <label for="radio4" class="productMini">
+                        <img src="img/detras.png" alt="">
+                    </label>
+                    <div class="presentationProduct">
+                        <img alt="modelo" src="img/FC3-48MR-AC.png" class="a b c d">
+                        <img alt="frente" src="img/frente.png" class="b c d">
+                        <img alt="lado" src="img/lado.png" class="c d">
+                        <img alt="detras" src="img/detras.png" class="d">
+                        <img src="img/FC3-48MR-AC.png" alt="" class="hidden1">
+                        <img src="img/frente.png" alt="" class="hidden2">
+                        <img src="img/lado.png" alt="" class="hidden3">
+                        <img src="img/detras.png" alt="" class="hidden4">
+                    </div>
+                </form>
+            </div>
+            <div class="detailContainer">
+                <input type="radio" name="detail" id="detail1" style="display: none;">
+                <label for="detail1" class="detail1" id="previus" onclick="changeButton1()">
+                    <h3>Especificaciones</h3>
                 </label>
-                <input type="checkbox" id="productsContent" style="display: none;">
-                <label for="productsContent" class="wrap">
-                    <div class="productsContent">
-                        <img src="img/FLEXEMFL3-4G.png" alt="">
-                        <div class="productsContentText">
-                            <h2>Nombre del Producto</h2>
-                            <p>
-                                Breve descripción del producto Descripción del producto Descripción del producto Descripción del producto.
-                            </p>
-                            <a href="Producto.html"><button class="button">Saber más</button></a>
-                        </div>
-                    </div>                    
+                <input type="radio" name="detail" id="detail2" style="display: none;">
+                <label for="detail2" class="detail" onclick="changeButton()">
+                    <h3>Puertos</h3>
+                </label><input type="radio" name="detail" id="detail3" style="display: none;">
+                <label for="detail3" class="detail" onclick="changeButton()">
+                    <h3>Tamaño</h3>
                 </label>
-                <input type="checkbox" id="productsContent" style="display: none;">
-                <label for="productsContent" class="wrap">
-                    <div class="productsContent">
-                        <img src="img/FLEXEMFL3-4G.png" alt="">
-                        <div class="productsContentText">
-                            <h2>Nombre del Producto</h2>
-                            <p>
-                                Breve descripción del producto Descripción del producto Descripción del producto Descripción del producto.
-                            </p>
-                            <a href="Producto.html"><button class="button">Saber más</button></a>
-                        </div>
-                    </div>                    
-                </label>
-                <input type="checkbox" id="productsContent" style="display: none;">
-                <label for="productsContent" class="wrap">
-                    <div class="productsContent">
-                        <img src="img/FLEXEMFL3-4G.png" alt="">
-                        <div class="productsContentText">
-                            <h2>Nombre del Producto</h2>
-                            <p>
-                                Breve descripción del producto Descripción del producto Descripción del producto Descripción del producto.
-                            </p>
-                            <a href="Producto.html"><button class="button">Saber más</button></a>
-                        </div>
-                    </div>                    
-                </label>
-                <input type="checkbox" id="productsContent" style="display: none;">
-                <label for="productsContent" class="wrap">
-                    <div class="productsContent">
-                        <img src="img/FLEXEMFL3-4G.png" alt="">
-                        <div class="productsContentText">
-                            <h2>Nombre del Producto</h2>
-                            <p>
-                                Breve descripción del producto Descripción del producto Descripción del producto Descripción del producto.
-                            </p>
-                            <a href="Producto.html"><button class="button">Saber más</button></a>
-                        </div>
-                    </div>                    
-                </label>
-                <input type="checkbox" id="productsContent" style="display: none;">
-                <label for="productsContent" class="wrap">
-                    <div class="productsContent">
-                        <img src="img/FLEXEMFL3-4G.png" alt="">
-                        <div class="productsContentText">
-                            <h2>Nombre del Producto</h2>
-                            <p>
-                                Breve descripción del producto Descripción del producto Descripción del producto Descripción del producto.
-                            </p>
-                            <a href="Producto.html"><button class="button">Saber más</button></a>
-                        </div>
-                    </div>                    
-                </label>
-                <input type="checkbox" id="productsContent" style="display: none;">
-                <label for="productsContent" class="wrap">
-                    <div class="productsContent">
-                        <img src="img/FLEXEMFL3-4G.png" alt="">
-                        <div class="productsContentText">
-                            <h2>Nombre del Producto</h2>
-                            <p>
-                                Breve descripción del producto Descripción del producto Descripción del producto Descripción del producto.
-                            </p>
-                            <a href="Producto.html"><button class="button">Saber más</button></a>
-                        </div>
-                    </div>                    
-                </label>
-                <input type="checkbox" id="productsContent" style="display: none;">
-                <label for="productsContent" class="wrap">
-                    <div class="productsContent">
-                        <img src="img/FLEXEMFL3-4G.png" alt="">
-                        <div class="productsContentText">
-                            <h2>Nombre del Producto</h2>
-                            <p>
-                                Breve descripción del producto Descripción del producto Descripción del producto Descripción del producto.
-                            </p>
-                            <a href="Producto.html"><button class="button">Saber más</button></a>
-                        </div>
-                    </div>                    
-                </label>
+                <div class="detailTables">
+                    <table class="table">
+                        <tr class="tableR">
+                            <td class="tableD" rowspan="12">
+                                Parametros del Hardware
+                            </td>
+                            <td class="tableD">
+                                Input (T menas Transistor. R means Relay)
+                            </td>
+                            <td class="tableD">
+                                24
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Output (T means Transistor,R means Relay)
+                            </td>
+                            <td class="tableD">
+                                24
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                PTO High-speed Counter
+                            </td>
+                            <td class="tableD">
+                                N/A
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                IO Expansion Module
+                            </td>
+                            <td class="tableD">
+                                Max 8
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                BD Extension Module
+                            </td>
+                            <td class="tableD">
+                                2
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                IOT Communication
+                            </td>
+                            <td class="tableD">
+                                1（FL3-2G/4G/WiFi/NET optional）
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Programming Ports
+                            </td>
+                            <td class="tableD">
+                                Micro USB
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Ethernet
+                            </td>
+                            <td class="tableD">
+                                N/A
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Calender
+                            </td>
+                            <td class="tableD">
+                                Built-in
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Wiring
+                            </td>
+                            <td class="tableD">
+                                Dismantable Terminal
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Voltage
+                            </td>
+                            <td class="tableD">
+                                100~240VAC（50Hz/60Hz±5%）
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Serial Communication
+                            </td>
+                            <td class="tableD">
+                                2*DB9 (RS232/RS485)
+                            </td>
+                        </tr>
+                        <tr class="tableR tableRB">
+                            <td class="tableD" rowspan="2">
+                                Electrical Specifications
+                            </td>
+                            <td class="tableD">
+                                Power Down Allowed
+                            </td>
+                            <td class="tableD">
+                                &lt; 5mS
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                CE&RoHS
+                            </td>
+                            <td class="tableD">
+                                EN61000-6-2:2005, EN61000-6-4:2007, RoHS, CESurge Immunity:±1KV；EFT:±2KV; ESD:4KV, Air:8KV
+                            </td>
+                        </tr>
+                        <tr class="tableR tableRB">
+                            <td class="tableD" rowspan="4">
+                                Environmental Requirements
+                            </td>
+                            <td class="tableD">
+                                Working Temperature
+                            </td>
+                            <td class="tableD">
+                                -20～70°C
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Storage Tempeture
+                            </td>
+                            <td class="tableD">
+                                -30～80°C
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Ambient Temperature
+                            </td>
+                            <td class="tableD">
+                                10～90%RH (No condensation)
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Cooling
+                            </td>
+                            <td class="tableD">
+                                Natural cooling
+                            </td>
+                        </tr>
+                        <tr class="tableR tableRB">
+                            <td class="tableD" rowspan="3">
+                                Other
+                            </td>
+                            <td class="tableD">
+                                Shell Material
+                            </td>
+                            <td class="tableD">
+                                Engineering plastic
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Overall size
+                            </td>
+                            <td class="tableD">
+                                172mm x 90mm x 83mm
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Total Weight
+                            </td>
+                            <td class="tableD">
+                                About 500g
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="table">
+                        <tr class="tableR">
+                            <td class="tableD" rowspan="9" >
+                                PORT1/PORT2
+                            </td>
+                            <td class="tableD">
+                                Pin1
+                            </td>
+                            <td class="tableD">
+                                Port1 RS485-（B）
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Pin2
+                            </td>
+                            <td class="tableD">
+                                Port1 RS232 Rx
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Pin3
+                            </td>
+                            <td class="tableD">
+                                Port1 RS232 Tx
+                            </td>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Pin4
+                            </td>
+                            <td class="tableD">
+                                Port2 RS485-（B）
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Pin5
+                            </td>
+                            <td class="tableD">
+                                GND
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Pin6
+                            </td>
+                            <td class="tableD">
+                                Port1 RS485+（A）
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Pin7
+                            </td>
+                            <td class="tableD">
+                                Port2 RS232 Rx
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Pin8
+                            </td>
+                            <td class="tableD">
+                                Port2 RS232 Tx
+                            </td>
+                        </tr>
+                        <tr class="tableR">
+                            <td class="tableD">
+                                Pin9
+                            </td>
+                            <td class="tableD">
+                                Port2 RS485+（A）
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="table">
+                        <img src="img/imaTama.svg" alt="">
+                    </div>
+                </div>
+
             </div>
         </div>
-    </body>
+        <script>
+            function changeButton() {
+                var x = document.getElementById("previus");
+                x.setAttribute("style","color: var(--light-gray);Background-color: var(--mid-gray)");
+                }
+            function changeButton1()    {
+                var x = document.getElementById("previus");
+                x.setAttribute("style","color: white;background-color: var(--orange)");
+            }
+        </script>
 
+    </body>
     <footer class="footer">
         <a href="#top" class="backToTop">
             <svg width="30" height="30" class="menu-icon2">
