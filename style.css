@@ -1111,7 +1111,7 @@ li:hover ~ .icon1 .fill {
 .productMini img   {
     display: flex;
     flex-shrink: 0;
-    width: 100%;
+    max-width: 100%;
     padding: 0.3rem;
 
 }
