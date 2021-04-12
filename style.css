@@ -1102,7 +1102,6 @@ li:hover ~ .icon1 .fill {
     max-width: 22%;
     max-height: 100%;
     cursor: pointer;
-    padding: 0.3rem;
     border: 2px solid var(--light-gray);
     border-radius: 3px;
     background-color: white;
@@ -1114,6 +1113,7 @@ li:hover ~ .icon1 .fill {
     flex-shrink: 0;
     width: 100%;
     margin: auto auto;
+    padding: 0.3rem;
 
 }
 
