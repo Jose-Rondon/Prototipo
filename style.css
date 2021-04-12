@@ -986,7 +986,7 @@ li:hover ~ .icon1 .fill {
 .products   {
     max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20ch,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(23ch,1fr));
     background-color: var(--light-gray);
     padding: 6.25%;
     justify-content: space-between;
@@ -1113,7 +1113,13 @@ li:hover ~ .icon1 .fill {
     flex-shrink: 0;
     max-width: 100%;
     padding: 0.3rem;
+}
 
+#hidden1,
+#hidden2,
+#hidden3,
+#hidden4    {
+    display: none;
 }
 
 .presentationProduct    {
@@ -1127,29 +1133,23 @@ li:hover ~ .icon1 .fill {
     place-items: center;
 }
 
-.presentationProduct .d   {
+.d   {
     display: flex;
     flex-shrink: 0;
     width: 100%;
-    padding: 3%;
+}
+
+.hiddenCont{
+    display: none;
+    cursor: zoom-out;
 }
 
 .hidden1,
 .hidden2,
 .hidden3,
 .hidden4    {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
     background-color: white;
     width: 100%;
-    transform: translate(-50%,-40%);
-    padding: 2%;    
-}
-
-.d    {
-    max-width: 100%;
 }
 
 #radio1:checked + .productMini,
@@ -1452,7 +1452,7 @@ li:hover ~ .icon1 .fill {
         padding: 2rem;
         background-color: var(--dark-gray);
         border-radius: 2rem;
-      }
+    }
     #productsContent:checked + * .productsContent p {
         color: white;
     }
@@ -1468,6 +1468,33 @@ li:hover ~ .icon1 .fill {
     .detailContainer    {
         padding: 3% 6.25%;
         margin: 3% 0 0;
+    }
+    .presentationProduct .d   {
+        cursor: zoom-in;
+    }
+    .hiddenCont {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    #hidden1:checked + label .hiddenCont,
+    #hidden2:checked + label .hiddenCont,
+    #hidden3:checked + label .hiddenCont,
+    #hidden4:checked + label .hiddenCont    {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(26, 26, 26, 0.95);
+        place-content: center;
+        z-index: 50000;
+    }
+    .hidden1,
+    .hidden2,
+    .hidden3,
+    .hidden4    {
+        width: calc(65% - 10vw);
+        margin: auto auto;
     }
 }
 
@@ -1609,6 +1636,13 @@ li:hover ~ .icon1 .fill {
     .backToTop {
         margin-right: 0;
     }
+    .hidden1,
+    .hidden2,
+    .hidden3,
+    .hidden4    {
+        width: calc(60% - 10vw);
+        margin: auto auto;
+    }
 }
 
 @media  (min-width: 1128px) {
@@ -1627,6 +1661,13 @@ li:hover ~ .icon1 .fill {
     }
     .menu3  {
         column-gap: 1.7rem;
+    }
+    .hidden1,
+    .hidden2,
+    .hidden3,
+    .hidden4    {
+        width: calc(50% - 10vw);
+        margin: auto auto;
     }
 }
 
@@ -1658,5 +1699,12 @@ li:hover ~ .icon1 .fill {
     }
     .contactosContent   {
         padding: 2rem;
+    }
+    .hidden1,
+    .hidden2,
+    .hidden3,
+    .hidden4    {
+        width: 50%;
+        margin: auto auto;
     }
 }
