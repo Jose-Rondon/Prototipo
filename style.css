@@ -1001,13 +1001,14 @@ li:hover ~ .icon1 .fill {
     background-color: white;
     padding: 6.25%;
     border-radius: 0.5rem;
+    height: 100%;
 }
 
 .productsContentText {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-    color: var(--mid-gray)
+    color: var(--mid-gray);
 }
 
 .productsContentText h2 {
@@ -1017,10 +1018,14 @@ li:hover ~ .icon1 .fill {
 .productsContent img{
     display: block;
     max-width: 65%;
+    background-color: white;
+    border-radius: .5rem;
 }
 
-.productsContentText a  {
+.productsContent a  {
     align-self: flex-end;
+    margin-top: auto;
+    margin-bottom: 0;
 }
 
 .button {
@@ -1029,7 +1034,7 @@ li:hover ~ .icon1 .fill {
     padding: .8rem 1rem;
     border: none;
     border-radius: 2rem;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .button:hover   {
@@ -1066,6 +1071,7 @@ li:hover ~ .icon1 .fill {
     gap: 0.5rem;
     border-top: 2px solid var(--orange);
     border-bottom: 2px solid var(--green);
+    justify-content: space-evenly;
 }
 
 .productText    {
@@ -1226,7 +1232,8 @@ li:hover ~ .icon1 .fill {
     display: none;    
 }
 
-#detail3:checked ~ .detailTables > table   {
+#detail3:checked ~ .detailTables > table:first-child,
+#detail3:checked ~ .detailTables > table:nth-child(2)   {
     display: none;
 }
 
@@ -1251,6 +1258,11 @@ li:hover ~ .icon1 .fill {
     flex-shrink: 0;
 }
 
+.table1     {
+    margin-bottom: 0;
+    margin-top: auto;
+}
+
 .tableR > [rowspan] {
     font-weight: bolder;
     color: var(--dark-gray);
@@ -1269,7 +1281,52 @@ li:hover ~ .icon1 .fill {
     padding-bottom: 2%;
     font-size: calc(0.7rem + 0.3vw);
     border: 1px solid var(--lighter-gray);
-    column-rule-color: blue;
+}
+
+.tableD1    {
+    border: 2px solid var(--mid-gray);
+    text-align: left;
+    padding: 0.5rem;
+    font-size: calc(0.6rem + 0.5vw);
+}
+
+.tableD1:first-child  {
+    font-weight: bolder;
+    color: var(--green);
+    text-align: right;
+    border-color: none;
+    background-color: var(--mid-gray);
+}
+
+.grid-sizes {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: white;
+    color: var(--mid-gray);
+    place-items: center;
+    border-collapse: collapse;
+    font-size: calc(0.7rem + 0.3vw);
+}
+
+.headerG    {
+    background-color: var(--green);
+    color: var(--dark-gray);
+}
+
+.grid-sizes div   {
+    display: grid;
+    place-items: center;
+    border: .1px solid var(--light-gray);
+    width: 100%;
+    height: 100%;
+    padding: calc(1.5% + 1vw) 0;
+    text-align: center;
+}
+
+.grid-screw {
+    place-items: center;
+    grid-template-columns: auto;
 }
 
 @media (min-width: 426px)   {
@@ -1307,17 +1364,15 @@ li:hover ~ .icon1 .fill {
 @media (min-width: 562px)   {
     .productInfo {
         flex-direction: row-reverse;
-        gap: 1rem;
-        padding: 3% 6.25%;
+        padding: 3%;
         place-items: center;
+        gap: 1rem;
     }
     .formProduct   {
         max-width: 50%;
-
     }
     .productText    {
         display: flex;
-        padding: 2rem;
         gap: 1rem;
         flex-direction: column;
     }
@@ -1436,8 +1491,11 @@ li:hover ~ .icon1 .fill {
         margin: auto auto;
         cursor: pointer;
         cursor: zoom-in;
+        height: 100%;
     }
-    #productsContent:checked + .wrap{
+    #productsContent1:checked + .wrap,
+    #productsContent2:checked + .wrap,
+    #productsContent3:checked + .wrap{
         position: fixed;
         top: 0;
         left: 0;
@@ -1447,16 +1505,30 @@ li:hover ~ .icon1 .fill {
         z-index: 20000;
         cursor: zoom-out;
     }
-    #productsContent:checked + * .productsContent   {
+
+    input[type="checkbox"]:checked + .wrap {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(255,255,255,.5);
+        z-index: 20000;
+        cursor: zoom-out;
+    }
+
+    input[type="checkbox"]:checked + * .productsContent   {
         width: 50%;
         padding: 2rem;
         background-color: var(--dark-gray);
         border-radius: 2rem;
     }
-    #productsContent:checked + * .productsContent p {
+
+    input[type="checkbox"]:checked + * .productsContent p {
         color: white;
     }
-    #productsContent:checked + * .productsContent h2   {
+
+    input[type="checkbox"]:checked + * .productsContent h2 {
         color: var(--green);
     }
     .products   {
