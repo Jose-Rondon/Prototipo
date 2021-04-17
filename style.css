@@ -1503,18 +1503,6 @@ li:hover ~ .icon1 .fill {
         cursor: zoom-in;
         height: 100%;
     }
-    #productsContent1:checked + .wrap,
-    #productsContent2:checked + .wrap,
-    #productsContent3:checked + .wrap{
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(255,255,255,.5);
-        z-index: 20000;
-        cursor: zoom-out;
-    }
 
     input[type="checkbox"]:checked + .wrap {
         position: fixed;
@@ -1583,11 +1571,6 @@ li:hover ~ .icon1 .fill {
 @media (min-width: 1024px)  {
     .navbar {
         padding: 3px 12%;
-    }
-    li:hover ~ .icon1    {
-        opacity: 1;
-        transform: scale(1,1);
-        margin: 6px 0;
     }
     .banner1    {
         margin: 3.15% 12%;
@@ -1753,6 +1736,11 @@ li:hover ~ .icon1 .fill {
         margin-top: 10px;
         transform: scale(0);
         transform-origin: center;
+    }
+    li:hover ~ .icon1    {
+        opacity: 1;
+        transform: scale(1,1);
+        margin: 6px 0;
     }
 }
 
