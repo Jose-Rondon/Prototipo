@@ -1584,47 +1584,6 @@ li:hover ~ .icon1 .fill {
     .navbar {
         padding: 3px 12%;
     }
-    .label1{
-        display: none;
-    }
-    .list1{
-        top: 0;
-        background-color:transparent;
-        margin: 0 12%;
-        transform: scale(1,1);
-        opacity: 1;
-        display: flex;
-        column-gap: 2rem;
-    }
-    .inline {
-        opacity: 1;
-        flex-direction: column;
-    }
-    .inline .icon1  {
-        display: flex;
-        position: absolute;
-        top: 55px;
-        opacity: 0;
-        transform: scale(0,1);
-        transform-origin: right;
-        transition-duration: .2s;
-        align-self: center;
-    }
-    .list1-1    {
-        transition-duration: 0.4s;
-        margin: 1rem 0 0;
-        text-decoration: none;
-        font-size: 1rem;
-        font-weight: normal;
-        cursor: pointer;
-        color:var(--lighter-gray);
-        transition-duration: .4s;
-    }
-    .inline .span-menu {
-        margin-top: 10px;
-        transform: scale(0);
-        transform-origin: center;
-    }
     li:hover ~ .icon1    {
         opacity: 1;
         transform: scale(1,1);
@@ -1750,6 +1709,50 @@ li:hover ~ .icon1 .fill {
     .hidden4    {
         width: calc(50% - 10vw);
         margin: auto auto;
+    }
+}
+
+@media (min-width: 1200px)  {
+    .label1{
+        display: none;
+    }
+    .list1{
+        top: 0;
+        background-color:transparent;
+        margin: 0 12%;
+        transform: scale(1,1);
+        opacity: 1;
+        display: flex;
+        column-gap: 2rem;
+    }
+    .inline {
+        opacity: 1;
+        flex-direction: column;
+    }
+    .inline .icon1  {
+        display: flex;
+        position: absolute;
+        top: 55px;
+        opacity: 0;
+        transform: scale(0,1);
+        transform-origin: right;
+        transition-duration: .2s;
+        align-self: center;
+    }
+    .list1-1    {
+        transition-duration: 0.4s;
+        margin: 1rem 0 0;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: normal;
+        cursor: pointer;
+        color:var(--lighter-gray);
+        transition-duration: .4s;
+    }
+    .inline .span-menu {
+        margin-top: 10px;
+        transform: scale(0);
+        transform-origin: center;
     }
 }
 
