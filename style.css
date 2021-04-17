@@ -1009,6 +1009,8 @@ li:hover ~ .icon1 .fill {
     padding: 6.25%;
     border-radius: 0.5rem;
     height: 100%;
+    box-shadow: 0 6px 12px var(--dark-gray);
+    transition-duration: .4s;
 }
 
 .productsContentText {
@@ -1025,7 +1027,6 @@ li:hover ~ .icon1 .fill {
 .productsContent img{
     display: block;
     max-width: 65%;
-    background-color: white;
     border-radius: .5rem;
 }
 
@@ -1050,8 +1051,10 @@ li:hover ~ .icon1 .fill {
 
 .productsContent:hover  {
     background-color: var(--dark-gray);
-    border-radius: 2rem;
+    border-radius: 1rem;
     transition-duration: .4s;
+    box-shadow: 0 6px 12px 5px var(--orange);
+    transform: translateY(-0.3rem)
 }
 
 .productsContent:hover * p {
