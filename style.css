@@ -619,9 +619,8 @@ li:hover ~ .icon1 .fill {
 
 .menu2 {
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-direction: column;
     width: 100%;
-    justify-content: space-evenly;
     background-image: linear-gradient(
     var(--orange),
     var(--orange),
@@ -651,11 +650,6 @@ li:hover ~ .icon1 .fill {
     margin: auto auto;
 }
 
-.buttonMargin   {
-    content: "";
-    flex-basis: 20%;
-}
-
 .content {
     display: flex;
     margin: 0 auto;
@@ -679,15 +673,33 @@ li:hover ~ .icon1 .fill {
     padding: 1rem 0 1rem;
 }
 
+.menuSlide  {
+    display: flex;
+    margin: 0 auto;
+    gap: 1.5rem;
+}
+
 #button1,
 #button2,
-#button3    {
+#button3,
+#button4    {
     display: none;
 }
 
-.button1,
+.button1    {
+    content:"";
+    background-color:var(--green);
+    border-radius: 50% 50%;
+    border: 2px solid var(--light-gray);
+    width: 1.3rem;
+    height: 1.3rem;
+    transition-duration: .4s;
+    margin: 1rem 0;
+}
+
 .button2,
-.button3    {
+.button3,
+.button4    {
     content:"";
     background-color:rgba(26,26,26,.5);
     border-radius: 50% 50%;
@@ -700,7 +712,8 @@ li:hover ~ .icon1 .fill {
 
 #button1:checked ~ .button1,
 #button2:checked ~ .button2,
-#button3:checked ~ .button3    {
+#button3:checked ~ .button3,
+#button4:checked ~ .button4    {
     background-color:var(--green);
     transform: scale(1.2);
 }
@@ -708,18 +721,6 @@ li:hover ~ .icon1 .fill {
 .menu2 label:hover   {
     transform: scale(1.2);
     background-color: var(--light-gray);
-}
-
-#button2:checked ~ .slideshow .contentslide:first-child{
-    margin-left: -100%;
-}
-
-#button3:checked ~.slideshow .contentslide:first-child  {
-    margin-left: -100%;
-}
-
-#button3:checked ~ .slideshow .contentslide:first-child + .contentslide{
-    margin-left: -100%;
 }
 
 .menu3  {

@@ -369,16 +369,8 @@
         </div>
         
         <div class="menu2">
-            <span class="buttonMargin"></span>
-            <input type="radio" name="slideshow" id="button1">
-            <label for="button1" class="button1"></label>
-            <input type="radio" name="slideshow" id="button2">
-            <label for="button2" class="button2"></label>
-            <input type="radio" name="slideshow" id="button3">
-            <label for="button3" class="button3"></label>
-            <span class="buttonMargin"></span>
             <div class="slideshow">
-                <div class="contentslide">
+                <div class="contentslide" id="one">
                     <img src="img/FC3-48MR-AC.png" alt="" class="slide">
                     <div class="content">
                         <h1 class="titulo">Dispositivos PLC</h1>
@@ -386,7 +378,7 @@
                         <a href="PLC.html"><button class="button">Saber más</button></a>
                     </div>
                 </div>
-                <div class="contentslide">
+                <div class="contentslide" id="two">
                     <img src="img/F010.png" alt="" class="slide">
                     <div class="content">
                         <h1 class="titulo">Dispositivos HMI</h1>
@@ -394,14 +386,32 @@
                         <a href="HMI.html"><button class="button">Saber más</button></a>
                     </div>
                 </div>
-                <div class="contentslide">
-                    <img src="img/FLEXEMFL3-4G.png" alt="" class="slide">
+                <div class="contentslide" id="three">
+                    <img src="img/M-Expancion.png" alt="" class="slide">
                     <div class="content">
                         <h1 class="titulo">Módulos de Expanción</h1>
                         <p>PLC dedicated IIoT module can access the Internet via Ethernet, 2G, 4G, WiFi, etc.The module is mounted to.</p>
                         <a href="M-Expancion.html"><button class="button">Saber más</button></a>
                     </div>
                 </div>
+                <div class="contentslide" id="four">
+                    <img src="img/FLEXEMFL3-4G.png" alt="" class="slide">
+                    <div class="content">
+                        <h1 class="titulo">Módulos de Comunicación</h1>
+                        <p>PLC dedicated IIoT module can access the Internet via Ethernet, 2G, 4G, WiFi, etc.The module is mounted to.</p>
+                        <a href="M-Expancion.html"><button class="button">Saber más</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="menuSlide">
+                <input type="radio" name="slideshow" id="button1">
+                <label for="button1" class="button1" ID="Color" onclick="slideshowA()"></label>
+                <input type="radio" name="slideshow" id="button2">
+                <label for="button2" class="button2" onclick="slideshowB()"></label>
+                <input type="radio" name="slideshow" id="button3">
+                <label for="button3" class="button3" onclick="slideshowC()"></label>
+                <input type="radio" name="slideshow" id="button4">
+                <label for="button4" class="button4" onclick="slideshowD()"></label>
             </div>
         </div>
 
@@ -560,6 +570,24 @@
                 
             </div>
         </div>
+        <script>
+            function slideshowB()    {
+                document.getElementById("Color").setAttribute("style","background-color: rgba(26,26,26,.5)");
+                document.getElementById("one").setAttribute("style","margin-left: -100%;");
+            }
+            function slideshowA()   {
+                document.getElementById("Color").setAttribute("style","background-color: var(--green)")
+                document.getElementById("one").setAttribute("style","margin-left: 0;")
+            }
+            function slideshowC()    {
+                document.getElementById("Color").setAttribute("style","background-color: rgba(26,26,26,.5)");
+                document.getElementById("one").setAttribute("style","margin-left: -200%;");
+            }
+            function slideshowD()    {
+                document.getElementById("Color").setAttribute("style","background-color: rgba(26,26,26,.5)");
+                document.getElementById("one").setAttribute("style","margin-left: -300%;");
+            }
+        </script>
     </body>
     <footer class="footer">
         <a href="#top" class="backToTop">
