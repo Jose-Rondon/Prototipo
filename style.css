@@ -1364,6 +1364,20 @@ li:hover ~ .icon1 .fill {
     .bannerLogo2 .logo  {
         max-width: 80%;
     }
+    .info1,
+    .info2,
+    .info3,
+    .info4  {
+        top: 25%;
+    }
+
+    .padContent {
+        flex-direction: row;
+    }
+    .padContent img {
+        max-width: 50%;
+    }
+    };
     .slide{
         max-width: 55%;
     }
