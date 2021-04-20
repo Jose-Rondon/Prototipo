@@ -1377,7 +1377,6 @@ li:hover ~ .icon1 .fill {
     .padContent img {
         max-width: 50%;
     }
-    };
     .slide{
         max-width: 55%;
     }
@@ -1404,9 +1403,6 @@ li:hover ~ .icon1 .fill {
 }
 
 @media (min-width: 562px)   {
-    .padContent {
-        flex-direction:;
-    }
     .productInfo {
         flex-direction: row-reverse;
         padding: 3%;
