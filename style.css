@@ -662,6 +662,7 @@ li:hover ~ .icon1 .fill {
 
 .contentslide   {
     display: flex;
+    position: relative;
     flex-direction: column;
     flex-basis: 100%;
     flex-shrink: 0;
