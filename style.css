@@ -1368,7 +1368,7 @@ li:hover ~ .icon1 .fill {
     .info2,
     .info3,
     .info4  {
-        top: 25%;
+        top: calc(25% - 3vw);
     }
 
     .padContent {
@@ -1465,6 +1465,15 @@ li:hover ~ .icon1 .fill {
     }
     .banner1pads svg    {
         transform: scale(1);
+    }
+    .info1,
+    .info2,
+    .info3,
+    .info4  {
+        top: calc(25% - 8vw);
+    }
+    .padContent img {
+        max-width: 45%;
     }
     .menu2 {
         background-image: linear-gradient(90deg,
@@ -1626,7 +1635,8 @@ li:hover ~ .icon1 .fill {
     .info2,
     .info3,
     .info4    {
-        width: 65%;
+        top: calc(25% - 1vw);
+        width: calc(65% - 1vw);
         border-right: 3px solid var(--green);
         border-left: 3px solid var(--orange);
         border-radius: 2rem;
