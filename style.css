@@ -493,6 +493,8 @@ li:hover ~ .icon1 .fill {
     width: 100%;
     gap: 1rem;
     max-width: 100%;
+    padding: 4%;
+    background-color: rgba(199,199,199,.1);
 }
 
 .padscont   {
@@ -541,7 +543,6 @@ li:hover ~ .icon1 .fill {
     width: 100%;
     border-bottom: 3px solid var(--green);
     border-top: 3px solid var(--orange);
-    transition-duration: .4s;
     z-index: 1002;
 }
 
@@ -613,9 +614,9 @@ li:hover ~ .icon1 .fill {
 #info-4:checked ~ .info4 {
     transform: scale(1);
     opacity: 1;
-    top: 100%;
-    left: 100%;
-    transform: translate(-100%, -100%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
     transition-duration: 0.4s;
 }
 
@@ -799,7 +800,7 @@ li:hover ~ .icon1 .fill {
     flex-wrap: wrap;
     background-color: var(--light-gray);
     border-radius: 0.25rem;
-    padding: 1rem;
+    padding: .5rem;
     justify-content: space-evenly;
     place-items: center;
     flex-basis: 100%;
@@ -1412,24 +1413,36 @@ li:hover ~ .icon1 .fill {
 }
 
 @media (min-width: 562px)   {
+    .bannerLogo2{
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-wrap: wrap;
+        column-gap: 1rem;
+    }
+    .letras1    {
+        display: flex;
+        width: 60%;
+        margin: 0;
+    }
+    .bannerLogo2 .logo  {
+        width: 35%;
+    }
     .banner1content {
         flex-wrap: nowrap;
-        margin: 3.25%;
         flex-direction: row;
+        width: 100%;
     }
     .banner1-2  {
         place-items: center;
         width: 43%;
     }
     .banner1-2 h1 {
-        font-size: calc(1.6rem + .3vw);
+        font-size: calc(1.3rem + .8vw);
         line-height: calc(1.6rem + .8vw)
     }
     .span1 {
-        height: 50%;
-    }
-    .banner1pads    {
-        position:;
+        height: 55%;
     }
     .productInfo {
         flex-direction: row-reverse;
@@ -1465,27 +1478,10 @@ li:hover ~ .icon1 .fill {
     .banner1-1  {
         row-gap: 1.5rem;
     }
-    .bannerLogo2{
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 100%;
-        flex-wrap: wrap;
-        column-gap: 1rem;
-    }
-    .bannerLogo2 .logo  {
-        width: 35%;
-    }
-    .letras1    {
-        display: flex;
-        width: 60%;
-        margin: 0;
-
-    }
     .banner1-2  {
         max-width: 50%;
     }
     .banner1content {
-        margin: 0 15%;
         padding: 4%;
         background-color: rgba(199,199,199,.1);
     }
@@ -1662,10 +1658,6 @@ li:hover ~ .icon1 .fill {
         row-gap: 2rem;
         justify-content: space-around;
     }
-    .banner1-2  {
-        margin: auto auto;
-        padding: 0;
-    }
     .info1,
     .info2,
     .info3,
@@ -1693,7 +1685,6 @@ li:hover ~ .icon1 .fill {
     .contactosContent   {
         flex-basis: 100%;
         flex-wrap: nowrap;
-        padding: 0.5rem;
     }
     .menu3  {
         margin: 0 12%;
@@ -1835,19 +1826,12 @@ li:hover ~ .icon1 .fill {
     .bannerLogo2 .logo  {
         max-width: 40%;
     }
-    .banner1-2 h1   {
-        font-size: calc(2.8rem + 1vw);
-        line-height: calc(2.8rem + 1vw);
-    }
     .menu3  {
         row-gap: 2rem;
     }
     .contactos  {
         padding: 4rem 2rem;
         max-width: 60%;
-    }
-    .contactosContent   {
-        padding: 2rem;
     }
     .hidden1,
     .hidden2,
