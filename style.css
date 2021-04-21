@@ -651,14 +651,13 @@ li:hover ~ .icon1 .fill {
 .menu2 {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: 100%;
     background-image: linear-gradient(
     var(--orange),
     var(--orange),
     var(--orange),
     rgba(0,0,0,.5),
-    rgba(0,0,0,1)
-    );
+    rgba(0,0,0,1));
 }
 
 .slideshow {
@@ -666,7 +665,8 @@ li:hover ~ .icon1 .fill {
     display: flex;
     flex-shrink: 0;
     flex-grow: 0;
-    overflow-x: hidden;
+    overflow-x: scroll;
+    transition-duration: .4s;
 }
 
 .contentslide   {
@@ -708,54 +708,44 @@ li:hover ~ .icon1 .fill {
     padding: 1rem 0 1rem;
 }
 
+.slideControl    {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 94%;
+    max-height: auto;
+    margin: 50% 3%;
+    justify-content: space-between;
+}
+
+.SCcontainer    {
+    display: flex;;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(0,0,0,.2);
+    border-radius: 50%;
+    background-color: rgba(255,255,255,.1);
+    place-items: center;
+    transition-duration: .4s;
+}
+
+.SCcontainerSvg {
+    fill: rgba(0,0,0,.2);
+    transition-duration: .4s;
+}
+
+.SCcontainer:hover  {
+    border-color: rgba(0,255,255,.4)
+}
+
+.SCcontainer:hover .SCcontainerSvg {
+    fill: rgba(0,255,255,.4);
+}
+
 .menuSlide  {
     display: flex;
     margin: 0 auto;
     gap: 1.5rem;
-}
-
-#button1,
-#button2,
-#button3,
-#button4    {
-    display: none;
-}
-
-.button1    {
-    content:"";
-    background-color:var(--green);
-    border-radius: 50% 50%;
-    border: 2px solid var(--light-gray);
-    width: 1.3rem;
-    height: 1.3rem;
-    transition-duration: .4s;
-    margin: 1rem 0;
-}
-
-.button2,
-.button3,
-.button4    {
-    content:"";
-    background-color:rgba(26,26,26,.5);
-    border-radius: 50% 50%;
-    border: 2px solid var(--light-gray);
-    width: 1.3rem;
-    height: 1.3rem;
-    transition-duration: .4s;
-    margin: 1rem 0;
-}
-
-#button1:checked ~ .button1,
-#button2:checked ~ .button2,
-#button3:checked ~ .button3,
-#button4:checked ~ .button4    {
-    background-color:var(--green);
-    transform: scale(1.2);
-}
-
-.menu2 label:hover   {
-    transform: scale(1.2);
-    background-color: var(--light-gray);
 }
 
 .menu3  {
@@ -1390,6 +1380,9 @@ li:hover ~ .icon1 .fill {
     .slide{
         max-width: 55%;
     }
+    .slideControl   {
+        margin: 40% 3%;
+    }
     .contactosContent  {
         flex-basis: 45%;
         flex-wrap: wrap;
@@ -1516,8 +1509,7 @@ li:hover ~ .icon1 .fill {
         var(--orange),
         var(--orange),
         rgba(0,0,0,.5),
-        rgba(0,0,0,1)
-        )
+        rgba(0,0,0,1));
     }
     .contentslide {
         flex-direction: row-reverse;
@@ -1542,7 +1534,10 @@ li:hover ~ .icon1 .fill {
         color: white;
         transform: none;
     }
-
+    .slideControl   {
+        width: 98%;
+        margin: 16.5% 1%;
+    }
     .titulo {
         text-align: left;
     }
@@ -1582,7 +1577,6 @@ li:hover ~ .icon1 .fill {
         cursor: zoom-in;
         height: 100%;
     }
-
     input[type="checkbox"]:checked + .wrap {
         position: fixed;
         top: 0;
@@ -1593,18 +1587,15 @@ li:hover ~ .icon1 .fill {
         z-index: 20000;
         cursor: zoom-out;
     }
-
     input[type="checkbox"]:checked + * .productsContent   {
         width: 50%;
         padding: 2rem;
         background-color: var(--dark-gray);
         border-radius: 2rem;
     }
-
     input[type="checkbox"]:checked + * .productsContent p {
         color: white;
     }
-
     input[type="checkbox"]:checked + * .productsContent h2 {
         color: var(--green);
     }
@@ -1668,6 +1659,9 @@ li:hover ~ .icon1 .fill {
         border-left: 3px solid var(--orange);
         border-radius: 2rem;
     }
+    .slideshow  {
+        overflow-x: hidden;
+    }
     .contentslide   {
         margin: 0;
     }
@@ -1677,6 +1671,10 @@ li:hover ~ .icon1 .fill {
     .content    {
         max-width: 45ch;
         padding: 2rem;
+    }
+    .slideControl   {
+        width: 98%;
+        margin: 15% 1%;
     }
     .contactos  {
         padding: 3%;
@@ -1808,6 +1806,10 @@ li:hover ~ .icon1 .fill {
         opacity: 1;
         transform: scale(1,1);
         margin: 6px 0;
+    }
+    .slideControl   {
+        width: 97.2%; 
+        margin: 16% 1.4%;
     }
 }
 

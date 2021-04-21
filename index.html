@@ -439,7 +439,7 @@
         </div>
         
         <div class="menu2">
-            <div class="slideshow">
+            <div class="slideshow" id="slideshow">
                 <div class="contentslide" id="one">
                     <img src="img/FC3-48MR-AC.png" alt="" class="slide">
                     <div class="content">
@@ -473,15 +473,17 @@
                     </div>
                 </div>
             </div>
-            <div class="menuSlide">
-                <input type="radio" name="slideshow" id="button1">
-                <label for="button1" class="button1" ID="Color" onclick="slideshowA()"></label>
-                <input type="radio" name="slideshow" id="button2">
-                <label for="button2" class="button2" onclick="slideshowB()"></label>
-                <input type="radio" name="slideshow" id="button3">
-                <label for="button3" class="button3" onclick="slideshowC()"></label>
-                <input type="radio" name="slideshow" id="button4">
-                <label for="button4" class="button4" onclick="slideshowD()"></label>
+            <div class="slideControl">
+                <div class="SCcontainer" id="button1-1" onclick="scrollSlideR()">
+                    <svg width="50" height="50">
+                        <polygon points="4 25,30 10,30 40" class="SCcontainerSvg"></polygon>
+                    </svg>
+                </div>
+                <div class="SCcontainer" id="button2-2" onclick="scrollSlideF()">
+                    <svg width="50" height="50">
+                        <polygon points="12 10,12 40,38 25" class="SCcontainerSvg"></polygon>
+                    </svg>
+                </div>
             </div>
         </div>
 
@@ -641,21 +643,17 @@
             </div>
         </div>
         <script>
-            function slideshowB()    {
-                document.getElementById("Color").setAttribute("style","background-color: rgba(26,26,26,.5)");
-                document.getElementById("one").setAttribute("style","margin-left: -100%;");
+            function scrollSlideF()  {
+                var x = document.getElementById("slideshow");
+                var y = x.scrollWidth;
+                var z = y / 4;
+                x.scrollBy((z), 0);
             }
-            function slideshowA()   {
-                document.getElementById("Color").setAttribute("style","background-color: var(--green)")
-                document.getElementById("one").setAttribute("style","margin-left: 0;")
-            }
-            function slideshowC()    {
-                document.getElementById("Color").setAttribute("style","background-color: rgba(26,26,26,.5)");
-                document.getElementById("one").setAttribute("style","margin-left: -200%;");
-            }
-            function slideshowD()    {
-                document.getElementById("Color").setAttribute("style","background-color: rgba(26,26,26,.5)");
-                document.getElementById("one").setAttribute("style","margin-left: -300%;");
+            function scrollSlideR()  {
+                var x = document.getElementById("slideshow");
+                var y = x.scrollWidth;
+                var z = (y / 4) * -1;
+                x.scrollBy((z), 0);
             }
         </script>
     </body>
