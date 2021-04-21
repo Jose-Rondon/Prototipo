@@ -817,7 +817,7 @@ li:hover ~ .icon1 .fill {
     position: absolute;
     align-self: center;
     padding: 0;
-    margin: auto 6.25%;
+    margin: auto 0;
     background-color:rgba(26, 26, 26, 0.95);
     transform: scale(0,1);
     opacity: 0;
@@ -833,7 +833,6 @@ li:hover ~ .icon1 .fill {
 .info3c3,
 .info4c4    {
     display: flex;
-    justify-content: space-evenly;
     opacity: 0;
     padding: calc(1rem + 1.5vw);
     gap: 0.8rem;
@@ -842,12 +841,12 @@ li:hover ~ .icon1 .fill {
     z-index: 20000;
 }
 
-.info1c1 p,
-.info2c2 p,
-.info3c3 p,
-.info4c4 p    {
-    color:var(--light-gray);
-    text-align: left;
+.titleRed   {
+    color: var(--lighter-gray)
+}
+
+.contentRed {
+    color: var(--green)
 }
 
 .info1c1 h3,
