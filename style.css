@@ -839,6 +839,14 @@ li:hover ~ .icon1 .fill {
     flex-wrap: wrap;
     color:white;
     z-index: 20000;
+    justify-content: space-evenly;
+}
+
+.redContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .titleRed   {
