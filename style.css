@@ -9,6 +9,10 @@
     --green: rgba(0,255,255,1);
 }
 
+html    {
+    min-height: 100%;
+}
+
 *   {
     -webkit-print-color-adjust: exact;
     -webkit-font-smoothing: antialiased;
@@ -25,6 +29,7 @@ body    {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--dark-gray);
     max-width: 100%;
+    min-height: 100%;
     background-image: linear-gradient(270deg,var(--mid-gray),var(--dark-gray));
 }
 
@@ -964,6 +969,7 @@ li:hover ~ .icon1 .fill {
 }
 
 .footer {
+    position: relative;
     display: flex;
     background-color:rgb(26, 26, 26);
     max-width: 100%;
@@ -973,6 +979,7 @@ li:hover ~ .icon1 .fill {
     place-items: center;
     flex-direction: column;
     padding: 0.5rem 0;
+    margin: auto 0 0;
 }
 
 .backToTop  {
