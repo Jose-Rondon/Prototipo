@@ -671,7 +671,6 @@ li:hover ~ .icon1 .fill {
     flex-shrink: 0;
     flex-grow: 0;
     overflow-x: scroll;
-    transition-duration: .4s;
 }
 
 .contentslide   {
@@ -685,7 +684,7 @@ li:hover ~ .icon1 .fill {
 }
 
 .slide   {
-    display: flex;
+    display: block;
     width: 75%;
     margin: auto auto;
 }
