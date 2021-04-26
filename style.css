@@ -767,7 +767,6 @@ li:hover ~ .icon1 .fill {
     to  {
         transform: rotate(359.9999deg);
     }
-
 }
 
 .menu3  {
@@ -1250,6 +1249,11 @@ li:hover ~ .icon1 .fill {
     max-height: 100%;
 }
 
+.detailTables .table:nth-child(2),
+.detailTables .table:nth-child(3) {
+    display: none;
+}
+
 .detail {
     display: flex;
     color: var(--light-gray);
@@ -1275,6 +1279,7 @@ li:hover ~ .icon1 .fill {
     cursor: pointer;
     margin-bottom: 1%;
 }
+
 #detail1:checked + .detail1,
 #detail2:checked + .detail,
 #detail3:checked + .detail {
@@ -1288,13 +1293,21 @@ li:hover ~ .icon1 .fill {
     background-color: var(--mid-gray);
 }
 
-#detail2:checked ~ .detailTables > table:first-child     {
+#detail2:checked ~ .detailTables > .table:first-child   {
     display: none;    
+}
+
+#detail2:checked ~ .detailTables > .table:nth-child(2)  {
+    display: table;
 }
 
 #detail3:checked ~ .detailTables > table:first-child,
 #detail3:checked ~ .detailTables > table:nth-child(2)   {
     display: none;
+}
+
+#detail3:checked ~ .detailTables > .table:nth-child(3)  {
+    display: flex;
 }
 
 .detailTables {
@@ -1313,7 +1326,8 @@ li:hover ~ .icon1 .fill {
 }
 
 .table {
-    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
     border-collapse: collapse;
     flex-shrink: 0;
 }

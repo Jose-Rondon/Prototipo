@@ -46,3 +46,12 @@ function scrollSlideR()  {
     document.getElementById("button1-2").setAttribute("style","display:block;");
     document.getElementById("counter").setAttribute("style","display: none;");
 }
+
+function changeButton() {
+    var x = document.getElementById("previus");
+    x.setAttribute("style","color: var(--light-gray);Background-color: var(--mid-gray)");
+    }
+function changeButton1()    {
+    var x = document.getElementById("previus");
+    x.setAttribute("style","color: white;background-color: var(--orange)");
+}
