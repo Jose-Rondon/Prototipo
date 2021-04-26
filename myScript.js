@@ -7,19 +7,26 @@ function stopSlide() {
     clearInterval(slide);
 }
 
+function slideshow1() {
+    var x = document.getElementById("slideshow");
+    var y = x.scrollWidth;
+    var z = y / 4;
+    if (x.scrollLeft + z == x.scrollWidth) {
+        x.scroll({left:(x.scrollWidth * -1), behavior:'smooth'})
+    }
+    else    {
+       x.scrollBy({left:(z), behavior:'smooth'});
+    }
+}
+
 onload = function () {
     slide = setInterval(slideshow1, 5000);
-    function slideshow1() {
-        var x = document.getElementById("slideshow");
-        var y = x.scrollWidth;
-        var z = y / 4;
-        if (x.scrollLeft + z == x.scrollWidth) {
-            x.scroll({left:(x.scrollWidth * -1), behavior:'smooth'})
-        }
-        else    {
-           x.scrollBy({left:(z), behavior:'smooth'});
-        }
-    }
+}
+
+function slideshow() {
+    slide = setInterval(slideshow1, 5000);
+    document.getElementById("button1-2").setAttribute("style","display: none;");
+    document.getElementById("counter").setAttribute("style","display: block;");
 }
 
 function scrollSlideF()  {
@@ -27,7 +34,8 @@ function scrollSlideF()  {
     var y = x.scrollWidth;
     var z = y / 4;
     x.scrollBy({left:(z),behavior:'smooth'});
-    clearInterval(slide);
+    document.getElementById("button1-2").setAttribute("style","display:block;");
+    document.getElementById("counter").setAttribute("style","display: none;");
 }
 
 function scrollSlideR()  {
@@ -35,4 +43,6 @@ function scrollSlideR()  {
     var y = x.scrollWidth;
     var z = (y / 4) * -1;
     x.scrollBy({left:(z),behavior:'smooth'});
+    document.getElementById("button1-2").setAttribute("style","display:block;");
+    document.getElementById("counter").setAttribute("style","display: none;");
 }
