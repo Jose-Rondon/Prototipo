@@ -1,12 +1,12 @@
 @import "normalize.css";
 
 :root {
-    --dark-gray: rgba(26,26,26,1);
-    --mid-gray: rgba(77, 77, 77,1);
-    --light-gray: rgba(178,180,180,1);
-    --lighter-gray: rgba(199,199,199,1);
-    --orange: rgba(243,66,19,1);
-    --green: rgba(0,255,255,1);
+    --dark-gray: hsla(0, 0%, 10%,1);
+    --mid-gray: hsla(0, 0%, 30%,1);
+    --light-gray: hsla(180, 1%, 70%,1);
+    --lighter-gray: hsla(0, 0%, 78%,1);
+    --orange: hsla(13, 90%, 51%,1);
+    --green: hsla(180, 100%, 50%,1);
 }
 
 html    {
@@ -147,7 +147,7 @@ h4  {
 }
 
 .fillform   {
-    fill: var(--green);
+    fill: var(--light-gray);
     transition-duration: .4s;
 }
 
@@ -514,11 +514,13 @@ li:hover ~ .icon1 .fill {
     display: flex;
     gap: 0.5rem;
     flex-direction: column;
-    background-color: var(--green);
     width: 45%;
     border-radius: 0.25rem;
     padding: .7rem;
     text-align: center;
+    background-image: radial-gradient(var(--light-gray) 97%, var(--mid-gray) 100%);
+    border: 2px outset hsla(0, 0%, 50%,.5);
+    box-shadow: 0 0 0 .9px var(--green);
 }
 
 .banner1pads *  {
@@ -594,9 +596,10 @@ li:hover ~ .icon1 .fill {
 #info-2:checked + .banner1pads,
 #info-3:checked + .banner1pads,
 #info-4:checked + .banner1pads {
-    background-color: var(--orange);
     color: white;
     transform: scale(1,1);
+    background-image: radial-gradient(var(--orange) 100%, var(--orange) 100%);
+    border: 2px inset hsla(0, 0%, 50%,.5);
 }
 
 #info-1:checked + .banner1pads .fill,
@@ -809,13 +812,15 @@ li:hover ~ .icon1 .fill {
 .contactosContent   {
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--light-gray);
     border-radius: 0.25rem;
     padding: .5rem;
     justify-content: space-evenly;
     place-items: center;
     flex-basis: 100%;
     cursor: pointer;
+    background-image: radial-gradient(var(--light-gray) 97%, var(--mid-gray) 100%);
+    border: 2px outset hsla(0, 0%, 50%,.5);
+    box-shadow: 0 0 0 .9px var(--green);
 }
 
 .contactosContent p {
@@ -826,8 +831,8 @@ li:hover ~ .icon1 .fill {
 #contactos2:checked + .contactosContent,
 #contactos3:checked + .contactosContent,
 #contactos4:checked + .contactosContent    {
-    background-color:var(--orange);
-    transform: scale(1.01);
+    background-image: radial-gradient(var(--orange) 100%, var(--orange) 100%);
+    border: 2px inset hsla(0, 0%, 50%,.5);
 }
 
 .infoc1,
@@ -1433,12 +1438,6 @@ li:hover ~ .icon1 .fill {
         flex-wrap: wrap;
         gap: 0.5rem;
         justify-content: space-evenly;
-    }
-    .banner1pads:hover   {
-        transform: scale(0.99);
-    }
-    .contactosContent:hover{
-        transform: scale(0.99);
     }
     .bannerTitulo    {
         justify-content: start;
