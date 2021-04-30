@@ -511,29 +511,49 @@ li:hover ~ .icon1 .fill {
 }
 
 .banner1pads    {
+    position: relative;
     display: flex;
-    gap: 0.5rem;
-    flex-direction: column;
     width: 45%;
     border-radius: 0.25rem;
-    padding: .7rem;
     text-align: center;
-    background-image: radial-gradient(var(--light-gray) 97%, var(--mid-gray) 100%);
     border: 2px outset hsla(0, 0%, 50%,.5);
-    box-shadow: 0 0 0 .9px var(--green);
+    box-shadow: 0 0 2px 1.5px var(--green);
+}
+
+.background {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    inset: 0;
+}
+
+.background1 {
+    display: flex;
+    position: absolute;
+    inset: 0;
+}
+
+.banner1padsC    {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+    padding: 0.7rem;
 }
 
 .banner1pads *  {
     transition-duration: 0s;
 }
 
-.banner1pads svg    {
+.banner1padsC svg    {
     align-self: center;
     transform: scale(0.8);
 }
 
 .banner1pads:hover   {
     cursor: pointer;
+    box-shadow: 0 0 2px 1.5px var(--orange);
 }
 
 .info1,
@@ -596,9 +616,7 @@ li:hover ~ .icon1 .fill {
 #info-2:checked + .banner1pads,
 #info-3:checked + .banner1pads,
 #info-4:checked + .banner1pads {
-    color: white;
-    transform: scale(1,1);
-    background-image: radial-gradient(var(--orange) 100%, var(--orange) 100%);
+    color: var(--orange);
     border: 2px inset hsla(0, 0%, 50%,.5);
 }
 
@@ -607,13 +625,6 @@ li:hover ~ .icon1 .fill {
 #info-3:checked + .banner1pads .fill,
 #info-4:checked + .banner1pads .fill   {
     fill: var(--green);
-}
-
-#info-1:checked + .banner1pads .fillform,
-#info-2:checked + .banner1pads .fillform,
-#info-3:checked + .banner1pads .fillform,
-#info-4:checked + .banner1pads .fillform   {
-    fill: var(--orange);
 }
 
 #info-1:checked ~ .info1,
@@ -810,29 +821,44 @@ li:hover ~ .icon1 .fill {
 }
 
 .contactosContent   {
+    position: relative;
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
     border-radius: 0.25rem;
-    padding: .5rem;
-    justify-content: space-evenly;
     place-items: center;
-    flex-basis: 100%;
+    justify-content: space-evenly;
     cursor: pointer;
-    background-image: radial-gradient(var(--light-gray) 97%, var(--mid-gray) 100%);
     border: 2px outset hsla(0, 0%, 50%,.5);
-    box-shadow: 0 0 0 .9px var(--green);
+    box-shadow: 0 0 2px 1.5px var(--green);
 }
 
-.contactosContent p {
-    text-align: center;
+.contactosContentC  {
+    display: flex;
+    width: 80%;
+    gap: 1rem;
+    place-items: center;
+    justify-content: space-evenly;
+    margin: 0.57rem;
+}
+
+.backgroundContactos    {
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+    inset: 0;
+    overflow: hidden;
+}
+
+.contactosContent:hover {
+    box-shadow: 0 0 2px 1.5px var(--orange);
 }
 
 #contactos1:checked + .contactosContent,
 #contactos2:checked + .contactosContent,
 #contactos3:checked + .contactosContent,
 #contactos4:checked + .contactosContent    {
-    background-image: radial-gradient(var(--orange) 100%, var(--orange) 100%);
     border: 2px inset hsla(0, 0%, 50%,.5);
+    color: var(--orange);
 }
 
 .infoc1,
@@ -1528,7 +1554,7 @@ li:hover ~ .icon1 .fill {
     .banner1pads {
         max-width:50%;
     }
-    .banner1pads svg    {
+    .banner1padsC svg    {
         transform: scale(1);
     }
     .info1,

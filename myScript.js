@@ -11,9 +11,11 @@ function slideshow1() {
     var x = document.getElementById("slideshow");
     var y = x.scrollWidth;
     var z = y / 4;
-    x.scrollBy({left:(z), behavior:'smooth'});
     if (x.scrollLeft + z == x.scrollWidth) {
         x.scroll({left:(x.scrollWidth * -1), behavior:'smooth'})
+    }
+    else {
+        x.scrollBy({left:(z), behavior:'smooth'});
     }
 }
 
