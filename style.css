@@ -376,6 +376,9 @@ li:hover ~ .icon1 .fill {
 }
 
 .logoShadow	{
+	display: flex;
+	width: 100%;
+	height: 100%;
 	filter: drop-shadow(0px 15px 4px hsla(0, 0%, 0%, .3))
 }
 
@@ -695,7 +698,7 @@ li:hover ~ .icon1 .fill {
 	display: flex;
 	flex-shrink: 0;
 	flex-grow: 0;
-	overflow-x: scroll;
+	overflow-x: hidden;
 }
 
 .contentslide   {
@@ -760,6 +763,10 @@ li:hover ~ .icon1 .fill {
 .SCcontainerSvg {
 	fill: rgba(0,0,0,.2);
 	transition-duration: .4s;
+}
+
+.SCcontainer svg	{
+	width: 100%;
 }
 
 .SCcontainer:hover  {
@@ -1015,14 +1022,19 @@ li:hover ~ .icon1 .fill {
 	position: relative;
 	display: flex;
 	background-color:rgb(26, 26, 26);
-	max-width: 100%;
-	height: 6rem;
+	width: 100%;
 	color:var(--light-gray);
 	justify-content: space-evenly;
 	place-items: center;
 	flex-direction: column;
-	padding: 0.5rem 0;
+	padding: 0.8rem 0;
 	margin: auto 0 0;
+	gap: 0.8rem;
+}
+
+.footer .logo	{
+	height: 50px;
+	width: 50px;
 }
 
 .backToTop  {
@@ -1443,7 +1455,7 @@ li:hover ~ .icon1 .fill {
 		margin: 40% 3%;
 	}
 	.contactosContent  {
-		flex-basis: 45%;
+		width: 100%;
 		flex-wrap: wrap;
 		gap: 0.5rem;
 		justify-content: space-evenly;
@@ -1468,14 +1480,18 @@ li:hover ~ .icon1 .fill {
 	}
 	.letras1    {
 		display: flex;
-		width: 60%;
+		max-width: 55%;
 		margin: 0;
 	}
 	.letrasLG	{
-		filter: drop-shadow(0px 15px 4px hsla(0, 0%, 0%, .8))
+		filter: drop-shadow(0px 15px 4px hsla(0, 0%, 0%, .8));
+		width: 100%;
 	}
 	.bannerLogo2 .logo  {
 		width: 35%;
+	}
+	.bannerLogo2 .logoLetras	{
+		width: 60%;
 	}
 	.banner1content {
 		flex-wrap: nowrap;
@@ -1492,6 +1508,24 @@ li:hover ~ .icon1 .fill {
 	}
 	.span1 {
 		height: 55%;
+	}
+	.menu3{
+		flex-direction: row;
+		flex-wrap: nowrap;
+		margin: 0 6.25%;
+		justify-content: space-between;
+	}
+	.cabecera	{
+		flex-basis: 40%;
+		place-items: center;
+		margin: 0;
+		margin-right: 0.8rem;
+	}
+	.cabecera::after	{
+		height: 40%;
+	}
+	.contactos	{
+		flex-basis: 60%;
 	}
 	.productInfo {
 		flex-direction: row-reverse;
@@ -1605,16 +1639,6 @@ li:hover ~ .icon1 .fill {
 		transform: scale(1.2);
 		background-color: var(--light-gray);
 	}
-	.cabecera   {
-		text-align: left;
-		flex-direction: column;
-		max-width: 100%;
-	}
-	.cabecera::after{
-		width: 100%;
-		height: 0.8rem;
-		margin: 0;
-	}
 	.contactos  {
 		padding: 3rem;
 	}
@@ -1715,9 +1739,6 @@ li:hover ~ .icon1 .fill {
 		border-left: 3px solid var(--orange);
 		border-radius: 2rem;
 	}
-	.slideshow  {
-		overflow-x: hidden;
-	}
 	.contentslide   {
 		margin: 0;
 	}
@@ -1738,26 +1759,15 @@ li:hover ~ .icon1 .fill {
 	}
 	.menu3  {
 		margin: 0 12%;
-		flex-wrap: nowrap;
-		place-items: center;
-		column-gap: 1.35rem;
 	}
 	.cabecera   {
-		flex-direction: row;        
-		margin: 0 auto;
 		width: 25ch;
 		text-align: right;
 	}
 	.cabecera::after    {
-		display: flex;
-		content:"";
-		background-color:var(--orange);
 		width: 2rem;
-		height: calc(7.5rem + 0.5vw);
-		margin-left: .8rem;
 		z-index: 1000;
 	}
-
 	.backToTop {
 		margin-right: 6%;
 	}
@@ -1794,9 +1804,6 @@ li:hover ~ .icon1 .fill {
 	}
 	.bannerLogo2 .logo  {
 		max-width: 45%;
-	}
-	.menu3  {
-		column-gap: 1.7rem;
 	}
 	.hidden1,
 	.hidden2,
@@ -1870,9 +1877,6 @@ li:hover ~ .icon1 .fill {
 	}
 	.bannerLogo2 .logo  {
 		max-width: 40%;
-	}
-	.menu3  {
-		row-gap: 2rem;
 	}
 	.contactos  {
 		padding: 4rem 2rem;
