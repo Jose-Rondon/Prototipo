@@ -1,0 +1,1054 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"align",
+				"align-content\tproperty"
+			],
+			[
+				"text",
+				"text-decoration-line\tproperty"
+			],
+			[
+				"s",
+				"sticky\tposition"
+			],
+			[
+				"a",
+				"space-around\tjustify-content"
+			],
+			[
+				"flex-",
+				"flex-wrap\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"flex-o",
+				"flex-grow\tproperty"
+			],
+			[
+				"font-",
+				"font-weight\tproperty"
+			],
+			[
+				"v",
+				"vertical-align\tproperty"
+			],
+			[
+				"max-h",
+				"max-width\tproperty"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"border",
+				"border-width\tproperty"
+			],
+			[
+				"grid-gap",
+				"grid-column-gap\tproperty"
+			],
+			[
+				"grid",
+				"grid-column\tproperty"
+			],
+			[
+				"gri",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"content",
+				"align-content\tproperty"
+			],
+			[
+				"transition",
+				"transition-duration\tproperty"
+			],
+			[
+				"transform",
+				"transform-origin\tproperty"
+			],
+			[
+				"gird-template",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"conten",
+				"justify-content\tproperty"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"texc",
+				"text-decoration\tproperty"
+			],
+			[
+				"comln",
+				"column-width\tproperty"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"b",
+				"binary\tlist-style-type"
+			],
+			[
+				"felx",
+				"flex-basis\tproperty"
+			],
+			[
+				"transition-a",
+				"transition-duration\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"lin",
+				"list-style-position\tproperty"
+			],
+			[
+				"k",
+				"katakana\tlist-style"
+			],
+			[
+				"u",
+				"upper-alpha\tlist-style"
+			],
+			[
+				"g",
+				"tigre\tlist-style"
+			],
+			[
+				"f",
+				"footnotes\tlist-style"
+			],
+			[
+				"c",
+				"disc\tlist-style"
+			],
+			[
+				"inline",
+				"inline-flex\tdisplay"
+			],
+			[
+				"l",
+				"soft-light\tbackground-blend-mode"
+			],
+			[
+				"gap",
+				"column-gap\tproperty"
+			],
+			[
+				"in",
+				"inline-flex\tdisplay"
+			],
+			[
+				"column",
+				"column-count\tproperty"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"over",
+				"overflow-y\tproperty"
+			],
+			[
+				"fonts",
+				"font-size\tproperty"
+			],
+			[
+				"col",
+				"column-count\tproperty"
+			],
+			[
+				"banner",
+				"banner-text"
+			],
+			[
+				"se",
+				"sans-serif\tfont-family"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"ligh",
+				"soft-light\tbackground-blend-mode"
+			],
+			[
+				"li",
+				"soft-light\tbackground-blend-mode"
+			],
+			[
+				"co",
+				"color-dodge\tbackground-blend-mode"
+			],
+			[
+				"back",
+				"background-repeat\tproperty"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"broder",
+				"border-style\tproperty"
+			],
+			[
+				"tranisiotn",
+				"transition-duration\tproperty"
+			],
+			[
+				"ima",
+				"Imagenes"
+			],
+			[
+				"row",
+				"grid-auto-rows\tproperty"
+			],
+			[
+				"sap",
+				"space-between\tjustify-content"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"cl",
+				"col1-1"
+			],
+			[
+				"col2",
+				"col1-2"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"inlin",
+				"inline-flex\tdisplay"
+			],
+			[
+				"Image",
+				"Imagenes"
+			],
+			[
+				"column-r",
+				"column-rule-color\tproperty"
+			],
+			[
+				"background-o",
+				"background-blend-mode\tproperty"
+			],
+			[
+				"colum",
+				"column-width\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"CSS",
+				"CSSsymbol"
+			],
+			[
+				"top",
+				"margin-top\tproperty"
+			],
+			[
+				"margin-",
+				"margin-right\tproperty"
+			],
+			[
+				"LE",
+				"LenguajeDeMarcado"
+			],
+			[
+				"tabla",
+				"tabla2"
+			],
+			[
+				"taba",
+				"tabla2TD"
+			],
+			[
+				"U",
+				"UPTAEB_azul"
+			],
+			[
+				"fie",
+				"field2"
+			],
+			[
+				"backgroundc",
+				"background-color\tproperty"
+			],
+			[
+				"border-top",
+				"border-top-style\tproperty"
+			],
+			[
+				"table",
+				"table-cell\tdisplay"
+			],
+			[
+				"con",
+				"align-content\tproperty"
+			],
+			[
+				"t",
+				"table-column\tdisplay"
+			],
+			[
+				"ta",
+				"table-cell\tdisplay"
+			],
+			[
+				"o",
+				"overflow-x\tproperty"
+			],
+			[
+				"DE",
+				"DEPARTAMENTO"
+			],
+			[
+				"De",
+				"de"
+			],
+			[
+				"Con",
+				"ConsicionParticipacion"
+			],
+			[
+				"Datos",
+				"DatosPersonales"
+			],
+			[
+				"i",
+				"inline\tdisplay"
+			],
+			[
+				"width",
+				"max-width\tproperty"
+			],
+			[
+				"overflow-",
+				"overflow-wrap\tproperty"
+			],
+			[
+				"fi",
+				"field1"
+			],
+			[
+				"table-row",
+				"table-row-group\tdisplay"
+			],
+			[
+				"pad",
+				"pad33"
+			],
+			[
+				"US",
+				"UsoDelLenguaje"
+			],
+			[
+				"Len",
+				"LenguajeDeMarcado"
+			],
+			[
+				"Tabla",
+				"TablaEjemplo"
+			],
+			[
+				"Ta",
+				"TablasHTML"
+			],
+			[
+				"Da",
+				"DatosPersonales"
+			],
+			[
+				"T",
+				"TablaEjemplo"
+			],
+			[
+				"align-",
+				"align-self\tproperty"
+			],
+			[
+				"font-v",
+				"font-variant-position\tproperty"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"drop",
+				"dropdownC"
+			],
+			[
+				"ove",
+				"overflow-wrap\tproperty"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"si",
+				"background-size\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 163415,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 34887,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "myScript.js",
+			"settings":
+			{
+				"buffer_size": 1514,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pak ins",
+				"Package Control: Install Package"
+			],
+			[
+				"paka remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack con ins",
+				"Package Control: Install Package"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				" pac ins",
+				"Package Control: Install Package"
+			],
+			[
+				" pac re",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"live",
+				"Live Server: Open In Browser"
+			],
+			[
+				"packa con ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"brack",
+				"RainbowBrackets: make rainbow"
+			],
+			[
+				"brac",
+				"RainbowBrackets: clear rainbow"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"svg",
+				"SVGO: Minify SVG"
+			],
+			[
+				"mi",
+				"SVGO: Minify SVG"
+			],
+			[
+				"mini",
+				"SVGO: Minify SVG"
+			],
+			[
+				"packa add",
+				"Package Control: Add Repository"
+			],
+			[
+				"package control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Color Picker: Insert Color"
+			],
+			[
+				"package control: ",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"color pick",
+				"Color Picker: Insert Color"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: e",
+				"Package Control: Enable Package"
+			],
+			[
+				"package control: ds",
+				"Package Control: Disable Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Github: Blame"
+			],
+			[
+				"packaç",
+				"Package Control: Enable Package"
+			],
+			[
+				"star",
+				"Live Server: Start"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: a",
+				"Package Control: Add Repository"
+			],
+			[
+				" package control: r",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control: r",
+				"Package Control: Remove Package"
+			],
+			[
+				"npm",
+				"npm: Install Package"
+			],
+			[
+				"liveser",
+				"Preferences: Live Server Settings"
+			],
+			[
+				"start",
+				"Live Server: Start"
+			],
+			[
+				"pacak",
+				"Package Control: Add Repository"
+			],
+			[
+				"install",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 613.0,
+		"history":
+		[
+			"npm install -g live-server",
+			"npm install - live-server",
+			"install package controll",
+			"Install Package Control"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/joser/Imágenes/Luis camacaro/PNP-E"
+	],
+	"file_history":
+	[
+		"/home/joser/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/joser/Imágenes/Luis camacaro/PNP-E/style.css",
+		"/home/joser/Imágenes/Luis camacaro/Trabajo img/InstaBanner.svg",
+		"/home/joser/.config/sublime-text-3/Packages/User/HTMLPrettify.sublime-settings",
+		"/home/joser/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/home/joser/.config/sublime-text-3/Packages/SVGO/svgo.js",
+		"/home/joser/.config/sublime-text-3/Packages/SVGO/node_modules/svgo/lib/svgo/config.js",
+		"/home/joser/.config/sublime-text-3/Packages/svgo/Svgo.sublime-settings",
+		"/home/joser/.config/sublime-text-3/Packages/User/Svgo.sublime-settings",
+		"/home/joser/.config/sublime-text-3/Packages/User/npm.sublime-settings",
+		"/home/joser/.config/sublime-text-3/Packages/npm/npm.sublime-settings",
+		"/home/joser/Imágenes/Luis camacaro/PNP-E/index.html",
+		"/home/joser/Imágenes/Luis camacaro/PNP-E/normalize.css",
+		"/home/joser/Imágenes/Luis camacaro/PNP-E/FL3-32MR-AC.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Proyecto/index.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Proyecto/talleres.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Proyecto/style.css",
+		"/home/joser/Imágenes/Luis camacaro/PNP-E/Producto.html",
+		"/home/joser/Imágenes/Luis camacaro/PNP-E/FE6100CE.html",
+		"/home/joser/Imágenes/Luis camacaro/PNP-E/img/whatsapp.xml",
+		"/home/joser/Imágenes/Luis camacaro/PNP-E/img/whatsapp.svg",
+		"/home/joser/Imágenes/Luis camacaro/PNP-E/img/PnPlogo.svg",
+		"/home/joser/Imágenes/Luis camacaro/PNP-E/img/trabajoC.svg",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 4/miEstilo.css",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon_15886744/movil/index.html",
+		"/home/joser/Imágenes/Luis camacaro/LuisLogo/LogoLuisNu2.svg",
+		"/home/joser/Imágenes/Luis camacaro/PNP-E/img/dibujo.svg",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Proyecto/contactos.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Proyecto/Carpeta nueva/style1.css",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Proyecto/Carpeta nueva/index1.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon_15886744/index.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 4/index.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 4/pagina1.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon_15886744/DatosPersonales.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 4/mipagina.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon_15886744/Entrega3/TablasHTML.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 4/miestilo.css",
+		"/home/joser/Code/C++1/Hello_World.cpp",
+		"/home/joser/Code/C++1/test.cpp",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon_15886744/Entrega4/DatosEstudios.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon_15886744/Entrega4/DatosPersonales.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon_15886744/Entrega4/TablasHTML.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon_15886744/Entrega4/TablaEjemplo.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon_15886744/Entrega4/UsoDelLenguaje.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon_15886744/Entrega4/LenguajeDeMarcado.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon_15886744/Entrega4/index.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon_15886744/DatosEstudios.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon_15886744/TablaEjemplo.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon_15886744/TablasHTML.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon_15886744/UsoDelLenguaje.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon_15886744/LenguajeDeMarcado.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/index.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon/UsoDelLenguaje.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon/DatosEstudios.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon/DatosPersonales.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon/TablaEjemplo.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon/TablasHTML.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon/LenguajeDeMarcado.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/LenguajeDeMarcado.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/UsoDelLenguaje.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/TablasHTML.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/DatosEstudios.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/TablaEjemplo.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/DatosPersonales.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/CondicionParticipacion.html",
+		"/home/joser/Descargas/Practica.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/ejemplo.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/jose_rondon2.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/jose_rondon3.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/jose_rondon4.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/jose_rondon5.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/paginas web/css/estilos.css",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/paginas web/pagiina 4.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/jose_rondon5.hmtl",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/paginas web/evaluacion 3 de electiva.html",
+		"/home/joser/Descargas/Practica2.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/paginas web/css/hojas.css",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/jose_rondon1.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/iframe1.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/iframe2.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/jose_rondon.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/Jose_Rondon-M.html",
+		"/home/joser/Documentos/Informatica/Trayecto1_Fase2/Electiva 1 - HTML/Unidad 3/UPTAEB-Transparente.png"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 99.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"after"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"folders":
+	[
+		{
+			"path": "/home/joser/Imágenes/Luis camacaro/PNP-E"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 163415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1199,
+								1199
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 15,
+							"color_helper.color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+							"color_helper.refresh": false,
+							"color_helper.scan":
+							{
+								"allow_scanning": true,
+								"color_class":
+								[
+									{
+										"class": "css-level-4",
+										"scopes": ""
+									}
+								],
+								"color_trigger": "(?i)(?:\\b(?<![-#&$])(?:color|hsla?|lch|lab|hwb|rgba?)\\(|\\b(?<![-#&$])[\\w]{3,}(?![(-])\\b|(?<![&])#)",
+								"current_ext": ".html",
+								"current_syntax": "HTML/HTML",
+								"enabled": true,
+								"last_updated": 1620073374.59,
+								"scanning": "meta.declaration-list.css -support.type.property-name.css -comment -string,meta.property-value.css -comment -string,meta.value.css -comment -string,meta.tag.inline.any.html string.quoted -constant.character.entity.html,meta.tag.any.html meta.attribute-with-value.style.html"
+							},
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 15,
+							"color_helper.color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+							"color_helper.refresh": false,
+							"color_helper.scan":
+							{
+								"allow_scanning": true,
+								"color_class":
+								[
+									{
+										"class": "css-level-4",
+										"scopes": ""
+									}
+								],
+								"color_trigger": "(?i)(?:\\b(?<![-#&$])(?:color|hsla?|lch|lab|hwb|rgba?)\\(|\\b(?<![-#&$])[\\w]{3,}(?![(-])\\b|(?<![&])#)",
+								"current_ext": ".css",
+								"current_syntax": "CSS3/CSS3",
+								"enabled": true,
+								"last_updated": 1620073374.59,
+								"scanning": "meta.declaration-list.css -support.type.property-name.css -comment -string,meta.property-value.css -comment -string,meta.value.css -comment -string,meta.tag.inline.any.html string.quoted -constant.character.entity.html,meta.tag.any.html meta.attribute-with-value.style.html"
+							},
+							"syntax": "Packages/CSS3/CSS3.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "myScript.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								322
+							]
+						],
+						"settings":
+						{
+							"color_helper.refresh": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 317.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.textarea":
+	{
+		"height": 108.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
